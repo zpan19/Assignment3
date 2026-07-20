@@ -42,3 +42,6 @@ def test_tc06_incomplete_email_format():
 
     assert result["success"] is False
     assert result["error"] == "Invalid email or password"
+
+
+    
