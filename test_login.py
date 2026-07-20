@@ -37,6 +37,7 @@ def test_tc05_wrong_password():
     assert result["error"] == "Invalid email or password"
 
 
+
 def test_tc06_very_short_email():
     result = login("a", "password123")
 
